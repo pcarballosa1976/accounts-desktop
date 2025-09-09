@@ -1,21 +1,34 @@
-'==================================================================================
+'====================================================================================
 '
 '  Balances.bas - Formulario para la manipulación de los saldos finales de cada año.
 '  
-'  El formulario permite ver, y también introducir, editar y eliminar los saldos finales de cada año,
-'  aun cuando estos dos últimos casos de uso no son recomendables.
+'  El formulario permite ver, y también introducir, editar y eliminar los saldos
+'  finales de cada año, aun cuando estos dos últimos casos de uso no son recomendables.
 '
-'  La utilidad real de la opción consiste en permitir la introducción manual del saldo final del año
-'  anterior antes de estar usando este programa, con lo cual podemos tener en cuenta el estado
-'  de resultados previo a su utilización, puesto así dicho saldo final podría ser utilizado durante la
-'  realización de los cálculos del saldo de los movimientos posteriores.
+'  La utilidad real de la opción consiste en permitir la introducción manual del saldo
+'  final del año anterior antes de estar usando este programa, con lo cual podemos tener
+'  en cuenta el estado de resultados previo a su utilización, puesto así dicho saldo
+'  final podría ser utilizado durante la realización de los cálculos del saldo de los
+'  movimientos posteriores.
 '
-'  Copyright (C) 2022 Cuban Solutions
+'  Copyright (C) 2025 Cuban Solutions
 '
-'  Este programa es gratuito y está publicado en https://cubansolutions.blogspot.com para
-'  su descarga. 
+'  Este programa es software libre: puedes redistribuirlo y/o modificarlo
+'  bajo los términos de la Licencia Pública General de GNU publicada por
+'  la Free Software Foundation, ya sea la versión 3 de la Licencia, o
+'  (a tu elección) cualquier versión posterior.
 '
-'==================================================================================
+'  Este programa se distribuye con la esperanza de que sea útil,
+'  pero SIN GARANTÍA; sin incluso la garantía implícita de COMERCIALIZACIÓN
+'  o ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Consulta la Licencia Pública
+'  General de GNU para más detalles.
+'
+'  Deberías haber recibido una copia de la Licencia Pública General de GNU
+'  junto a este programa. Si no, consulta <https://www.gnu.org/licenses/>.
+'
+'  También puedes visitar el blog del autor en: https://cubansolutions.blogspot.com
+'
+'====================================================================================
 
 DECLARE SUB BalancesMainFormClose (Action AS INTEGER)
 DECLARE SUB BalancesFirstCoolBtnClick (Sender AS QCOOLBTN)

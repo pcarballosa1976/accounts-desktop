@@ -1,4 +1,4 @@
-'=====================================================================================
+'====================================================================================
 '
 '  ConceptsBrief.bas - Formulario de resumen consolidado por conceptos de gastos
 '  e ingresos.
@@ -6,12 +6,24 @@
 '  El formulario permite ver de un modo general y para un período determinado (diario,
 '  mensual, anual) los totales de gastos e ingresos totalizados por conceptos.
 '
-'  Copyright (C) 2022 Cuban Solutions
+'  Copyright (C) 2025 Cuban Solutions
 '
-'  Este programa es gratuito y está publicado en https://cubansolutions.blogspot.com
-'  para su descarga. 
+'  Este programa es software libre: puedes redistribuirlo y/o modificarlo
+'  bajo los términos de la Licencia Pública General de GNU publicada por
+'  la Free Software Foundation, ya sea la versión 3 de la Licencia, o
+'  (a tu elección) cualquier versión posterior.
 '
-'=====================================================================================
+'  Este programa se distribuye con la esperanza de que sea útil,
+'  pero SIN GARANTÍA; sin incluso la garantía implícita de COMERCIALIZACIÓN
+'  o ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Consulta la Licencia Pública
+'  General de GNU para más detalles.
+'
+'  Deberías haber recibido una copia de la Licencia Pública General de GNU
+'  junto a este programa. Si no, consulta <https://www.gnu.org/licenses/>.
+'
+'  También puedes visitar el blog del autor en: https://cubansolutions.blogspot.com
+'
+'====================================================================================
 
 DECLARE SUB ConceptsBriefMainFormClose (Action AS INTEGER)
 DECLARE SUB ConceptsBriefParametersQueryButtonClick (Sender AS QBUTTON)

@@ -1,4 +1,4 @@
-'=====================================================================================
+'====================================================================================
 '
 '  Concepts.bas - Formulario para la manipulación de los conceptos de gastos
 '  e ingresos.
@@ -8,12 +8,24 @@
 '  haber usado un concepto previamente definido en uno de los movimientos de gastos
 '  o ingresos luego no podrá eliminarlo. 
 '
-'  Copyright (C) 2022 Cuban Solutions
+'  Copyright (C) 2025 Cuban Solutions
 '
-'  Este programa es gratuito y está publicado en https://cubansolutions.blogspot.com
-'  para su descarga. 
+'  Este programa es software libre: puedes redistribuirlo y/o modificarlo
+'  bajo los términos de la Licencia Pública General de GNU publicada por
+'  la Free Software Foundation, ya sea la versión 3 de la Licencia, o
+'  (a tu elección) cualquier versión posterior.
 '
-'=====================================================================================
+'  Este programa se distribuye con la esperanza de que sea útil,
+'  pero SIN GARANTÍA; sin incluso la garantía implícita de COMERCIALIZACIÓN
+'  o ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Consulta la Licencia Pública
+'  General de GNU para más detalles.
+'
+'  Deberías haber recibido una copia de la Licencia Pública General de GNU
+'  junto a este programa. Si no, consulta <https://www.gnu.org/licenses/>.
+'
+'  También puedes visitar el blog del autor en: https://cubansolutions.blogspot.com
+'
+'====================================================================================
 
 DECLARE SUB ConceptsMainFormClose (Action AS INTEGER)
 DECLARE SUB ConceptsFirstCoolBtnClick (Sender AS QCOOLBTN)

@@ -1,17 +1,31 @@
-'==================================================================================
+'====================================================================================
 '
 '  QDBFTable.bas - Clase básica para manipular una tabla (".dbf") de Foxbase.
 '
+'  El presente código de demostración fue elaborado como parte de un tutorial sobre
+'  cómo usar una tabla ".dbf" desde RapidQ.
+'
+'  El tutorial original, así como software gratis, además de info adicional sobre
+'  matemáticas y programación en diferentes lenguajes de cómputo y artículos de
+'  temática variada, lo puede encontrar en la dirección de mi blog personal en la
+'  dirección: https://cubansolutions.blogspot.com
+'
 '  Copyright (C) 2017 Cuban Solutions
 '
-'  Este código de demostración fue elaborado como parte de un tutorial sobre cómo usar una tabla ".dbf"
-'  desde RapidQ por medios propios (sin usar otras librerías).
+'  Este programa es software libre: puedes redistribuirlo y/o modificarlo
+'  bajo los términos de la Licencia Pública General de GNU publicada por
+'  la Free Software Foundation, ya sea la versión 3 de la Licencia, o
+'  (a tu elección) cualquier versión posterior.
 '
-'  El tutorial original, así como software gratis, además de info adicional sobre matemáticas y programación
-'  en diferentes lenguajes de cómputo y artículos de temática variada, lo puede encontrar en la dirección de 
-'  mi blog personal https://cubansolutions.blogspot.com
+'  Este programa se distribuye con la esperanza de que sea útil,
+'  pero SIN GARANTÍA; sin incluso la garantía implícita de COMERCIALIZACIÓN
+'  o ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Consulta la Licencia Pública
+'  General de GNU para más detalles.
 '
-'==================================================================================
+'  Deberías haber recibido una copia de la Licencia Pública General de GNU
+'  junto a este programa. Si no, consulta <https://www.gnu.org/licenses/>.
+'
+'====================================================================================
 
 Const QDBF_MAX_FIELD As Byte = 50
 
